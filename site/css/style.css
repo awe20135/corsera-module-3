@@ -1,0 +1,67 @@
+body{
+	font-size: 16px;
+}
+
+/* BEGIN HEAD */
+#header-nav {
+  	background-color: gray;
+  	border-radius: 0;
+  	border: 0;
+}
+.navbar-brand h1 { /* Page name */
+	color: black;
+  	font-size: 1.5em;
+ 	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+
+}
+.space{
+	width: 100%;
+	height: 50px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+ 	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle:hover{
+	background: gray;
+}
+.navbar-header button.navbar-toggle:focus{
+	background: gray;
+	border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle:focus .icon-bar{
+	border: 1px solid #fff;
+}
+#collapsable-nav{
+	background: gray;
+}
+#nav-list a{
+	color: #000;
+}
+.nav-list-hr{
+	margin: 0 auto;
+	width: 100%;
+	border-top: 2px solid #000;
+}
+/* END HEAD */
+
+/* BEGIN MENU */
+.menu-content{
+	background: gray;
+	margin-top: 35px;
+}
+
+/********* SMALL DEVICES **********/
+@media (max-width: 767px){
+	#collapsable-nav{
+		background: #fff;
+	}
+	.menu{
+		width: 70%;
+	}
+}
